@@ -134,17 +134,25 @@ VeryLong VeryLong::mult_digit(int d2)
 
 int main()
 {
+    //Used as sum of big numbers
+
     VeryLong n1;
     VeryLong n2;
-    // cout << "Enter n1 : ";
-    // n1.getvl();
-    // cout << "Enter n2 : ";
-    // n2.getvl();
-    // VeryLong sum, prod;
-    // sum = n1 + n2;
-    // cout << "Sum : "; sum.putvl();
-    // prod = n1 * n2;
-    // cout << "\nProd : ";prod.putvl();    
+    cout << "Enter n1 : ";
+    n1.getvl();
+    cout << "Enter n2 : ";
+    n2.getvl();
+    VeryLong sum, prod;
+    sum = n1 + n2;
+    cout << "Sum : "; sum.putvl();
+
+    //Used as sum of big numbers
+
+    prod = n1 * n2;
+    cout << "\nProd : ";prod.putvl();    
+    getch();
+
+    //Used as Factorial for big numbers
 
     int num;
     cout << "Enter the number : ";
@@ -160,4 +168,4 @@ int main()
 
 
     return 0;
-}
+}-
