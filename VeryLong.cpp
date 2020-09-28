@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <stdio.h>
 using namespace std;
 
 const int sz = 100000;
